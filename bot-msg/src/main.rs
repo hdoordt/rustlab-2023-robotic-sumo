@@ -15,7 +15,7 @@ use tokio::{
 use ulid::Ulid;
 
 const VERSION: &str = "1.0";
-const AUTHOR: &str = "Massimiliano Mantione";
+const AUTHOR: &str = "Henk Oordt";
 
 #[derive(Parser, Debug)]
 #[clap(version = VERSION, author = AUTHOR)]
